@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<!--start of head-->
+
+<head>
+    <title>Mumbai Indians</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <style>
+        /* Make the image fully responsive */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        table {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            
+        }
+        #know{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <a class="navbar-brand" href="#">MI Duniya Hila Denge Hum...</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="player_list.html">Player List</a>
+                            <a class="dropdown-item" href="#">News</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Sponsers</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--player list start-->
+    <section class="player-table">
+        <div class="container-fluid">
+            <h1 class="text-capitalize text-center pt-5">Player List</h1>
+            <hr class="w-25 mx-auto pt-5">
+
+            <div >
+                <!--<div class="col-lg-6 col-md-6 col-12 ">
+                         <img src="images/m11.jpg" class="img-fluid">
+                    </div>-->
+
+                <div >
+                    <table>
+                        <tr>
+                            <th>Sn.</th>
+                            <th>Players</th>
+                            <th>Nationality</th>
+                            <th>Role</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Rohit Sharma (C)</td>
+                            <td>India</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sherfane Rutherford</td>
+                            <td>West Indies</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Suryakumar Yadav</td>
+                            <td>India</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Anmolpreet Singh</td>
+                            <td>India</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Chris Lynn</td>
+                            <td>Australia</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Saurabh Tiwary</td>
+                            <td>India</td>
+                            <td>Batsman</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Ishan Kishan</td>
+                            <td>India</td>
+                            <td>Wkt/Bat</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Quinton de Kock</td>
+                            <td>South Africa</td>
+                            <td>Wkt/Bat</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Aditya Tare</td>
+                            <td>India</td>
+                            <td>Wkt/Bat</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Hardik Pandya</td>
+                            <td>India</td>
+                            <td>Allrounder</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Kieron Pollard</td>
+                            <td>West Indies</td>
+                            <td>Allrounder</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Krunal Pandya</td>
+                            <td>India</td>
+                            <td>Allrounder</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Anukul Roy</td>
+                            <td>India</td>
+                            <td>Allrounder</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Dhawal Kulkarni</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Jaspreet Bumrah</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Rahul Chahar</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Trent Boult</td>
+                            <td>New Zealand</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Mohsin Khan</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Prince Balwant Rai Singh</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Digvijay Deshmukh</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>Jayant Yadav</td>
+                            <td>India</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Nathan Coulter-Nile</td>
+                            <td>Australia</td>
+                            <td>Bowler</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>James Pattinson</td>
+                            <td>Australia</td>
+                            <td>Bowler</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <form action="https://www.mumbaiindians.com/players" id="know">
+                        <input type="submit" value="Know More" class="btn bg-primary text-white"/>
+                    </form>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--player list end-->
+
+    <!--footer start-->
+    <footer>
+        <p class="text-center bg-dark text-white">@copyright abhishekbhingle2020</p>
+    </footer>
+
+    <!--footer end-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
